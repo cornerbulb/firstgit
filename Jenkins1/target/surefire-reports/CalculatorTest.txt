@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.42 sec <<< FAILURE!
+testAdd(CalculatorTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected [6] but found [8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at CalculatorTest.testAdd(CalculatorTest.java:52)
+
